@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#800000"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kelembapan Rumah Sekarang"
+        android:textSize="12pt"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30pt"
+        android:textStyle="bold"/>
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:id="@+id/texthum"
+        android:layout_centerHorizontal="true"
+        android:textSize="40pt"
+        android:layout_marginTop="100pt"/>
+    <TextView
+        android:textColor="#fff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suhu Normal"
+        android:textSize="10pt"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/texthum"
+        android:id="@+id/kondisihum"
+        />
+
+</RelativeLayout>

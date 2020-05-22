@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AC"
+    android:background="#4B0082"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remote AC"
+        android:textSize="12pt"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10pt"
+        android:textStyle="bold"
+        android:id="@+id/judul"
+        />
+
+        <ImageView
+            android:layout_marginTop="15pt"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/on"
+            android:layout_below="@+id/judul"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/btn_on"
+            />
+
+    <ImageView
+        android:layout_marginTop="15pt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/auto"
+        android:layout_below="@+id/btn_on"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_auto"
+        />
+
+    <ImageView
+        android:layout_marginTop="15pt"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/off"
+        android:layout_below="@+id/btn_auto"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btn_off"
+        />
+
+
+</RelativeLayout>
